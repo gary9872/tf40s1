@@ -1,0 +1,7 @@
+#####################################################
+#### TinyFugue installation FAILED.
+#### See README for help.
+#### 
+#### Perhaps gcc is not configured correctly.
+#### Before contacting the author, set (and uncomment)
+#### CC=cc in unix/Config and try again.
