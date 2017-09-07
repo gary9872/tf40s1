@@ -1,12 +1,10 @@
 Configuring TinyFugue version 4.0 stable 1
 
-TF binary will be installed as     /usr/games/tf
-Library, help, and utilities:      /usr/share/games/tf/
+TF binary will be installed as     /usr/bin/tf
+Library, help, and utilities:      /usr/share/tf/
 Default mail directory:            /var/spool/mail/
 Man page will be installed in      /usr/man/man6/tf.6 in nroff format
 
-To change these locations type "n" now and edit the unix/Config file.
-Continue? (y/n)
 
 
 Will compile with: gcc -O2 -g -Wall

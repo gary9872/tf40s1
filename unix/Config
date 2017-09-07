@@ -33,8 +33,8 @@
 #   even if an old version is currently in use.  You can remove
 #   the old version manually later when it is no longer in use.
 
-TF="/usr/games/tf"
-LIBDIR="/usr/share/games/tf"
+TF="/usr/bin/tf"
+LIBDIR="/usr/share/tf"
 # SYMLINK="/usr/local/bin/tf"
 
 
