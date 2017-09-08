@@ -33,8 +33,8 @@
 #   even if an old version is currently in use.  You can remove
 #   the old version manually later when it is no longer in use.
 
-TF="/tmp/tf/usr/bin/tf"
-LIBDIR="/tmp/tf/usr/share/tf-lib"
+TF="/usr/bin/tf"
+LIBDIR="/usr/share/tf-lib"
 
 
 ### Manual Page.
@@ -44,7 +44,7 @@ LIBDIR="/tmp/tf/usr/share/tf-lib"
 # vt100 "catman" pages.  Default is "cat".
 
 MANTYPE="nroff"
-MANPAGE="/tmp/tf/usr/share/man/man6/tf.6"
+MANPAGE="/usr/share/man/man6/tf.6"
 
 
 
