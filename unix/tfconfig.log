@@ -1,0 +1,73 @@
+Configuring TinyFugue version 4.0 stable 1
+
+TF binary will be installed as     /tmp/tf/usr/bin/tf
+Library, help, and utilities:      /tmp/tf/usr/share/tf-lib/
+Default mail directory:            /var/spool/mail/
+Man page will be installed in      /tmp/tf/usr/share/man/man6/tf.6 in nroff format
+
+
+
+Will compile with: gcc -O2 -g -Wall
+Preprocessor: gcc -O2 -g -Wall -E
+Ah ha, gcc is GNU C gcc (GCC) 7.1.1 20170630
+Copyright (C) 2017 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+Right on, your system is POSIX.
+Found <stdlib.h>.
+Found <string.h>.
+Found <memory.h>.
+Found <sys/select.h>.
+Found <locale.h>.
+Found <netinet/in.h>.
+Found <arpa/inet.h>.
+Found <netdb.h>.
+Found <pwd.h>.
+Found <zlib.h>.
+Found <stdarg.h>.
+Testing for library symbols...
+Found bcopy.
+Found bsearch.
+Found bzero.
+Found connect.
+Found fileno.
+Found getcwd.
+Found gethostbyname.
+Found getpwnam.
+Found gettimeofday.
+Did not find getwd, but that's ok.
+Found h_errno.
+Found hstrerror.
+Found index.
+Found kill.
+Found memcpy.
+Found memset.
+Found raise.
+Found setlocale.
+Found sigaction.
+Found srand.
+Found srandom.
+Found strcasecmp.
+Found strchr.
+Did not find strcmpi, but that's ok.
+Found strcspn.
+Found strerror.
+Found strftime.
+Did not find stricmp, but that's ok.
+Found strstr.
+Found strtod.
+Found strtol.
+Found tzset.
+Found waitpid.
+Testing case conversion...
+Case conversion works.
+Testing type of signal handlers...
+Signal handlers return void, as they should.
+Testing for time_t...
+time() returns time_t, as it should.
+Creating linker test...
+Will link with -lbsd compatibility library.
+Will link with -lz.
+Will link with -lncurses terminal control library.
+Will link with -lm math library.
+Using <termios.h>.
